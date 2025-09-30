@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://cf8usnjn8srhr"]
+
+[ext_resource type="Texture2D" uid="uid://biam6iu2706ne" path="res://tilemap_packed.png" id="2_sknj2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t3lgr"]
+size = Vector2(96.39639, 26.058558)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_32npk"]
+size = Vector2(108, 30)
+
+[node name="Spike" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1.4999981, -14.537499)
+scale = Vector2(1.11, 1.11)
+shape = SubResource("RectangleShape2D_t3lgr")
+debug_color = Color(0.98039216, 0, 0, 0)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(2.0000305, -53.125004)
+scale = Vector2(5.5, 5.0357146)
+texture = ExtResource("2_sknj2")
+region_enabled = true
+region_rect = Rect2(210, 42, 21, 21)
+
+[node name="StaticBody" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody"]
+position = Vector2(3, -16)
+shape = SubResource("RectangleShape2D_32npk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

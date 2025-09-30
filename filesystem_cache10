@@ -1,0 +1,16 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1759256850
+character_body_2d.gd::GDScript::6345020828551989508::1759253665::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Health (1).png::CompressedTexture2D::7532589469609952455::1759256850::1759256850::1::::<><><>0<>0<>bb80c458784495ee8d32b2726f0f1663<>res://.godot/imported/Health (1).png-98fd1e2680be961d0eb8c9610919191d.ctex::
+icon.svg::CompressedTexture2D::2878359703368360533::1759241786::1759241797::1::::<><><>0<>0<>63f4373985480abfffae5d7453bd91bb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+tilemap_packed.png::CompressedTexture2D::2948715848675037026::1759248798::1759248798::1::::<><><>0<>0<>03dd243e9bd6d33fa3f5bd3edd101a56<>res://.godot/imported/tilemap_packed.png-7b301e6705a57389d2cd02d385b33920.ctex::
+::res://character/::1759256789
+player.tscn::PackedScene::1593934439603905547::1759256616::0::1::::<><><>0<>0<><>::uid://cwnttilent2hc::::res://character_body_2d.gd<>uid://6dij6gqkwgd1::::res://character/Animations/IDLE.png<>uid://k7ayf202re5m::::res://character/Animations/JUMP.png<>uid://bafho0c851m5y::::res://character/Animations/RUN.png
+woled.tscn::PackedScene::288838085978505474::1759256789::0::1::::<><><>0<>0<><>::uid://wyd4qwcnrfod::::res://character/player.tscn<>uid://biam6iu2706ne::::res://tilemap_packed.png<>uid://cf8usnjn8srhr::::res://spike/spike.tscn
+::res://character/Animations/::1759246560
+IDLE.png::CompressedTexture2D::2182550732362341864::1759246560::1759246560::1::::<><><>0<>0<>f0c7ef910577ca40022076e960f16a7c<>res://.godot/imported/IDLE.png-64c0c539d36ce6e6834d594e5e94bf4b.ctex::
+JUMP.png::CompressedTexture2D::767991689063064624::1759246560::1759246560::1::::<><><>0<>0<>86110b9726184d10081c805c64b3e12e<>res://.godot/imported/JUMP.png-6d069bf34618c90eca8760d2604616f1.ctex::
+RUN.png::CompressedTexture2D::2397193910241292052::1759246560::1759246560::1::::<><><>0<>0<>57c6cba1ab27c4a60a308d137effc32c<>res://.godot/imported/RUN.png-9a640e65383bb1ed4505b542b4ef8602.ctex::
+::res://spike/::1759256789
+spike.gd::GDScript::4440510415982082374::1759256363::0::1::::<>Area2D<><>0<>0<><>::
+spike.tscn::PackedScene::5193157232948232643::1759256789::0::1::::<><><>0<>0<><>::uid://biam6iu2706ne::::res://tilemap_packed.png
